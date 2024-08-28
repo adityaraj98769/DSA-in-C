@@ -10,7 +10,7 @@ struct Student {
 int main(){
     
     printf("Enter the Student name : ");
-    scanf("%s",&s1.name);
+    gets(s1.name);
     printf("Enter the marks : ");
     scanf("%f",&s1.marks);
     printf("Enter the Roll number : ");
